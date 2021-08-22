@@ -1,0 +1,41 @@
+@charset "EUC-KR";
+
+
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size:40px;
+  margin-top: 80px;
+}
+
+section{
+	
+  width: 500px;
+  /*
+  margin:10px auto;*/
+  }
+ 
+
+  
+
+
+table{
+  width:100%;
+ /* margin: auto;*/
+}
+
+
+/*
+  tr {
+    width: 100%;
+  }
+  th,td{
+    box-sizing:border-box;
+    
+   
+    
+    padding: 10px;
+  }
+*/

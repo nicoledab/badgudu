@@ -1,0 +1,60 @@
+* { padding:0; margin:0;}
+
+/*top */
+#top{
+	padding:0;
+	margin:0;
+}
+
+/*사이드 카테코리*/
+
+aside{
+	width:250px; 
+	padding: 10px; 
+	float:left;
+	box-sizing:border-box; 
+	margin: 5vh auto 0;
+	line-height : 40px;
+	color:black;
+}
+
+aside .cate{
+	list-style: none;
+	font-weight:bold;
+	background-color:666666;
+	color:white;
+}
+aside .detail{
+	text-decoration:none;
+	color:black;
+	font-size: 12pt;
+	width: 200px;
+	display:block;
+}
+aside .detail:hover{
+	color:black;
+	background-color:lightgray;
+	font-weight:bold;
+}
+
+
+main{
+	width:1250px; 
+	height:1000px;
+	position:relative;
+	padding: 6px; 
+	float:right;
+}
+.adminMain{
+	width:1550px;
+	vertical-align: middle;
+	position:relative;
+	
+}
+
+/**/
+.cs{
+	width:1250px;
+   	vertical-align: middle;
+   	position:relative;
+}

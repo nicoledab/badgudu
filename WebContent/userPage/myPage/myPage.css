@@ -1,0 +1,70 @@
+* { padding:0; margin:0;}
+
+/*사이드 카테고리*/
+aside{
+	width:250px; 
+	padding: 10px; 
+	float:left;
+	box-sizing:border-box; 
+	margin: 10vh auto 0;
+}
+aside h3{
+	line-height: 50px;
+}
+
+aside ul li{
+	list-style: none;
+	line-height : 30px;
+	color:black;
+}
+aside ul .cate{
+	text-decoration:none;
+	color:black;
+	font-size: 12pt;
+	width: 200px;
+	display:block;
+}
+aside ul .cate:hover{
+	color:black;
+	background-color:lightgray;
+	font-weight:bold;
+}
+
+main{
+	width:1250px; 
+	height: 900px;
+	padding: 6px; 
+	float:right;
+	margin-top:30px;
+}
+.title{
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+
+/*myPage*/
+.myPage{
+	width:1550px;
+	height: 900px;
+	vertical-align: middle;
+}
+
+.myPageTable{
+	margin-top : 50px;
+}
+
+.myPageTitle{
+	margin-top : 20px;
+}
+.myPageTable tr td:hover{
+	color:black;
+	background-color:lightgray;
+	font-weight:bold;
+}
+
+.cg:hover{
+	color:black;
+	background-color:lightgray;
+	font-weight:bold;
+}

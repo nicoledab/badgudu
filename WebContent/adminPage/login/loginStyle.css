@@ -1,0 +1,84 @@
+* { padding:0; margin:0;}
+
+* { padding:0; margin:0;}
+
+/*top */
+#top{
+	padding:0;
+	margin:0;
+}
+
+/*사이드 카테코리*/
+
+aside{
+	width:250px; 
+	padding: 10px; 
+	float:left;
+	box-sizing:border-box; 
+	margin: 5vh auto 0;
+	line-height : 40px;
+	color:black;
+}
+
+aside .cate{
+	list-style: none;
+	font-weight:bold;
+	background-color:666666;
+	color:white;
+	font-size:12px;
+}
+aside .detail{
+	text-decoration:none;
+	color:black;
+	font-size: 12pt;
+	width: 200px;
+	display:block;
+}
+aside .detail:hover{
+	color:black;
+	background-color:lightgray;
+	font-weight:bold;
+}
+
+.title{
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+
+/*bottom*/
+#bottom{
+	position: relative;
+	margin-top :300px;
+	border: 1px solid black;
+	width: 1550px;
+}
+
+/*loginForm*/
+#loginForm{
+	width:1550px;
+	vertical-align: middle;
+	height:600px;
+	position:relative;
+	
+}
+
+.loginForm{
+	margin: 10vh auto 0;
+}
+
+/*signUp*/
+#signup{
+	width:1550px;
+	vertical-align: middle;
+	height:600px;
+	position:relative;
+	
+}
+form .signUp{
+	margin: 10vh auto 0;
+}
+
+hr {
+  margin-bottom: 25px;
+}
